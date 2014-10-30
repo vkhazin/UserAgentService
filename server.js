@@ -25,7 +25,7 @@ function echo(req, res) {
         name: appInfo.name,
         version: appInfo.version,
         description: appInfo.description,
-        author: {
+        author:{
             name: appInfo.author.name,
             email: appInfo.author.email,
         }
@@ -34,7 +34,6 @@ function echo(req, res) {
 }
 
 function parse(req, res) {
-    
     //Parse the data
     var agentString = req.body.userAgent || req.body.UserAgent || req.params['useragent'];
     
@@ -42,7 +41,6 @@ function parse(req, res) {
     useragent(true);
     
     var agent = useragent.lookup(agentString);
-    
     res.send(agent.toJSON());
 }
 /*****************************************************************************/
