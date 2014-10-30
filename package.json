@@ -1,0 +1,17 @@
+{
+  "name": "UserAgentService",
+  "version": "0.0.1",
+  "description": "UserAgentService",
+  "main": "server.js",
+  "author": {
+    "name": "Vlad Khazin",
+    "email": "vladimir.khazin@icssolutions.ca"
+  },
+  "dependencies": {
+    "cors": "*",
+    "request": "^2.47.0",
+    "restify": "*",
+    "useragent": "^2.1.0",
+    "yamlparser": "0.0.2"
+  }
+}
