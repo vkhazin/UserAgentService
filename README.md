@@ -1,21 +1,23 @@
 # UserAgentService
 
-Wrapped-up https://www.npmjs.org/package/useragent using node.js
+Wrapped-up https://www.npmjs.org/package/useragent into restful service using node.js
 
 # Sample Request
 
 ## POST
-http://<service-url>/parse
+http://service-url/parse
 
 ## Headers
 Content-Type: application/json
 
-## Body:
+``` ## Body
 {
  "UserAgent": "Mozilla/5.0 (Linux; Android 4.4.2; SGH-I747M Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36"
 }
+```
 
-# Response:
+```# Response:
+
 {
     "family": "Chrome Mobile",
     "major": "30",
@@ -34,5 +36,6 @@ Content-Type: application/json
         "patch": "2"
     }
 }
+```
 
 
