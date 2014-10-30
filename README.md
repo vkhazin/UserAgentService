@@ -1,9 +1,10 @@
-﻿# UserAgentService
-﻿
-﻿Wrapped-up https://www.npmjs.org/package/useragent using node.js
-﻿
-﻿# Sample Request
-﻿## POST
+# UserAgentService
+
+Wrapped-up https://www.npmjs.org/package/useragent using node.js
+
+# Sample Request
+
+## POST
 http://<service-url>/parse
 
 ## Headers
