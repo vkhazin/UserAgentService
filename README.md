@@ -17,7 +17,7 @@ Content-Type: application/json
 }
 ```
 
-# Response:
+# Sample Response:
 ``` Json
 {
     "family": "Chrome Mobile",
