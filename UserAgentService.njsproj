@@ -1152,6 +1152,7 @@
     <Content Include="node_modules\yamlparser\tests\index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="node_modules\" />
