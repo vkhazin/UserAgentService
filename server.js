@@ -34,7 +34,6 @@ function echo(req, res) {
 }
 
 function parse(req, res) {
-
     //Parse the data
     var agentString = req.body.userAgent || req.body.UserAgent || req.params['useragent'];
     
@@ -42,12 +41,11 @@ function parse(req, res) {
     useragent(true);
     
     var agent = useragent.lookup(agentString);
-
     res.send(agent.toJSON());
 }
 /*****************************************************************************/
 
 //Start server
 server.listen(port, function () {
-	console.log('listening on port: ' + port);
+    console.log('listening on port: ' + port);
 });
