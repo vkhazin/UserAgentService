@@ -7,6 +7,14 @@ Wraps up https://www.npmjs.org/package/useragent npm package and exposing it as 
 
 # Sample Request
 
+## Postman
+
+Instructions how to install Postman and import collection: 
+http://cases.azoft.com/postman-rest-client-in-a-mobile-development-project/
+
+Collection Source: 
+https://www.getpostman.com/collections/fa8bf251c27900eba44a
+
 ## POST
 http://useragentsvc.azurewebsites.net/parse
 
