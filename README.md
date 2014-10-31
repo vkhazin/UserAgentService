@@ -1,13 +1,13 @@
 # UserAgentService
 
-Parses user agent from browser request header and returns json object representing browser, os, and device info.
+Parses user agent from web browser request header and returns json object representing browser, os, and device info.
 The database of user agent strings is updated automatically.
 
 Wraps up https://www.npmjs.org/package/useragent npm package and exposing it as restful service using node.js
 
 # Sample Request
 
-## Postman
+## Using Postman
 
 Install Postman and import collection: 
 http://cases.azoft.com/postman-rest-client-in-a-mobile-development-project/
@@ -15,20 +15,22 @@ http://cases.azoft.com/postman-rest-client-in-a-mobile-development-project/
 Collection Source: 
 https://www.getpostman.com/collections/fa8bf251c27900eba44a
 
-## POST
+## Using any Http Client
+
+### POST
 http://useragentsvc.azurewebsites.net/parse
 
-## Headers
+### Headers
 Content-Type: application/json
 
-## Body
+### Body
 ``` Json
 {
  "UserAgent": "Mozilla/5.0 (Linux; Android 4.4.2; SGH-I747M Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36"
 }
 ```
 
-# Sample Response
+## Sample Response
 ``` Json
 {
     "family": "Chrome Mobile",
@@ -49,5 +51,3 @@ Content-Type: application/json
     }
 }
 ```
-
-
