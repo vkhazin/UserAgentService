@@ -4,7 +4,8 @@ var cors = require('cors');
 var appInfo = require('./package.json');
 
 //Configuration
-var port = process.env.port || 1337;
+var address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+var port = process.env.OPENSHIFT_NODEJS_PORT || process.env.port || 1337;
 var server = restify.createServer();
 
 //Plug-ins
@@ -46,6 +47,6 @@ function parse(req, res) {
 /*****************************************************************************/
 
 //Start server
-server.listen(port, function () {
-    console.log('listening on port: ' + port);
+server.listen(port, address, function () {
+    console.log('listening on: ' + address + ':' + port);
 });

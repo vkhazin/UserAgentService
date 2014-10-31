@@ -7,11 +7,15 @@
     "name": "Vlad Khazin",
     "email": "vladimir.khazin@icssolutions.ca"
   },
-  "dependencies": {
-    "cors": "*",
-    "request": "^2.47.0",
-    "restify": "*",
-    "useragent": "^2.1.0",
-    "yamlparser": "0.0.2"
-  }
+    "dependencies": {
+        "cors": "*",
+        "request": "^2.47.0",
+        "restify": "*",
+        "useragent": "^2.1.0",
+        "yamlparser": "0.0.2"
+    },
+    "scripts": {
+      "start": "node server.js"
+    },
+    "main": "server.js"
 }
