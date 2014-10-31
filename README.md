@@ -8,7 +8,7 @@ Wraps up https://www.npmjs.org/package/useragent npm package and exposing it as 
 # Sample Request
 
 ## POST
-http://service-url/parse
+http://http://useragentsvc.azurewebsites.net/parse
 
 ## Headers
 Content-Type: application/json
