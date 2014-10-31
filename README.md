@@ -19,6 +19,7 @@ https://www.getpostman.com/collections/b0554888242b16bfc26e
 
 ### POST
 Azure: http://useragentsvc.azurewebsites.net/parse
+
 OpenShift: http://useragentsvc-smplrsvc.rhcloud.com/parse
 
 ### Headers
