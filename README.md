@@ -13,12 +13,13 @@ Install Postman and import collection:
 http://cases.azoft.com/postman-rest-client-in-a-mobile-development-project/
 
 Collection Source: 
-https://www.getpostman.com/collections/fa8bf251c27900eba44a
+https://www.getpostman.com/collections/b0554888242b16bfc26e
 
 ## Using any Http Client
 
 ### POST
-http://useragentsvc.azurewebsites.net/parse
+Azure: http://useragentsvc.azurewebsites.net/parse
+OpenShift: http://useragentsvc-smplrsvc.rhcloud.com/parse
 
 ### Headers
 Content-Type: application/json
