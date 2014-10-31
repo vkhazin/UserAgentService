@@ -9,7 +9,7 @@ Wraps up https://www.npmjs.org/package/useragent npm package and exposing it as 
 
 ## Postman
 
-Instructions how to install Postman and import collection: 
+Install Postman and import collection: 
 http://cases.azoft.com/postman-rest-client-in-a-mobile-development-project/
 
 Collection Source: 
