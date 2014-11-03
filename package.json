@@ -2,6 +2,7 @@
   "name": "UserAgentService",
   "version": "0.0.1",
   "description": "UserAgentService",
+  "homepage": "https://github.com/vkhazin/UserAgentService",
   "main": "server.js",
   "author": {
     "name": "Vlad Khazin",
