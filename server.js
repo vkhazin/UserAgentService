@@ -26,6 +26,7 @@ function echo(req, res) {
         name: appInfo.name,
         version: appInfo.version,
         description: appInfo.description,
+        homepage: appInfo.homepage,
         author:{
             name: appInfo.author.name,
             email: appInfo.author.email,
