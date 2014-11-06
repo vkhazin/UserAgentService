@@ -4,7 +4,6 @@ var cors = require('cors');
 var appInfo = require('./package.json');
 
 //Configuration
-//var address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 var port = process.env.PORT || 1337;
 var server = restify.createServer();
 
